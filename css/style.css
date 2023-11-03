@@ -1,0 +1,11 @@
+.jumboCopy img {
+max-width: 200px;
+align-items: center;
+}
+#sidebar ul li a {
+    color: #900;
+    text-decoration: none;
+    padding: 3px 0; 
+    display: block;
+  }
+ 
