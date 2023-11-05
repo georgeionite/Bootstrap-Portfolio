@@ -8,4 +8,14 @@ align-items: center;
     padding: 3px 0; 
     display: block;
   }
- 
+  .page-section ul li{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: inline;
+   margin-left: 100px;
+   margin-right: 100px;
+  }
+
+
