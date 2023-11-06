@@ -25,27 +25,21 @@
                 <a class="nav-link active" aria-current="page" href="#">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About me</a>
+                <a class="nav-link" href="#About-me">About me</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                  My Work
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://github.com/georgeionite">GitHub Portfolio</a></li>
-                  <li><a class="dropdown-item" href="">Linkedin Account</a></li>
+                  <li><a class="dropdown-item" href="https://georgeionite.github.io/My-Portfolio/">My Portfolio Showcase</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:5500/index.html?">My Bootstrap Portfolio</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="https://georgeionite.github.io/My-Portfolio/">Portfolio</a></li>
+                  <li><a class="dropdown-item" href="https://github.com/georgeionite">GitHub Portfolio</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+          
           </div>
         </div>
       </nav>
@@ -56,7 +50,7 @@
       <h1 class="display-5 fw-bold">Marcel George Ionite</h1>
       
       <p class="col-md-12 fs-4">Front-End Developer <br>HTML, CSS, JavaScript</p>
-      <button class="btn btn-primary btn-lg" type="button">Get in touch</button>
+      <a class="btn btn-primary btn-lg" type="button" href="mailto:george_ionite@yahoo.com">Get in touch by email</a>
     </div>
   </div>
   <!-- End jumbotron -->
@@ -65,7 +59,7 @@
 <div class="container text-center">
   <div class="row">
     <div class="col-sm-12 col-lg-12 col-md-12">
-      <div class="card" style="width:  100%;">
+      <div class="card" style="width: 100%;">
         <img src="images/02-portfolio-1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">My Portfolio Showcase</h5>
@@ -123,12 +117,11 @@
 <!--End Work Grid -->
 
 <!--Skills section and About me/Contact me section-->
+<section class="skillsAbout">
 <div class="container text-center">
   <div class="row">
-   
-    <div class="col">
-      <div class="card" style="width: 100%;">
-        <img src="images/02-portfolio-2.jpg" class="card-img-top" alt="...">
+    <div class="col-sm-12 col-lg-6 col-md-6 skills">
+      <div class="card" style="width: 98%;">
         <div class="card-body">
           <h5 class="card-title">Skills</h5>
           <p class="card-text">HTML/CSS
@@ -144,28 +137,24 @@
             Testing and Debugging <br>
             CSS Grid and Flexbox
            </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="card" style="width: 100%;">
-        <img src="images/contact me.jpg" class="card-img-top" alt="...">
+    <div class="col-sm-12 col-lg-6 col-md-6 aboutMe" id="About-me">
+      <div class="card" style="width: 98%;">
         <div class="card-body">
-          <h5 class="card-title">Contact </h5>
-          <ul>
-            <li>
-              <a href="tel:07799465643">Phone number: 07799465643</a>
-            </li>
-            <li>
-              <a href="mailto:george_ionite@yahoo.com">Get in touch by email </a>
-            </li>
-          </ul>
+          <h5 class="card-title">About me </h5>
+          <p>Hello, I'm Marcel, a passionate and aspiring front-end web developer based in London. I have a strong enthusiasm for creating visually appealing and user-friendly web experiences. With a background in Electrical and Electronical Engineering, I've embarked on a journey to explore the exciting world of web development.
+
+            My journey in web development began with a fascination for turning ideas into interactive and functional websites. I enjoy translating designs into clean and responsive code, and I'm constantly honing my skills in HTML, CSS, and JavaScript.
+            
+            My goal is to contribute to meaningful projects, collaborate with creative teams, and create exceptional web experiences that leave a positive impact.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
+</section>
   <!-- End Skills section and About me/Contact me section-->
   
   <!--Footer section-->
